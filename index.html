@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Choudhary - Cloud Computing Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-animation">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Rahul Choudhary<span></span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">Hello, I'm</h2>
+            <h1 class="title">Rahul Choudhary</h1>
+            <p class="description">An aspiring <span class="highlight">Cloud Computing</span> professional with a strong
+                foundation in Computer Science Engineering.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                <a href="#education" class="btn secondary-btn">View My Journey</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-card image-card">
+                <div class="cloud-icon-container">
+                    <i class="fa-solid fa-cloud cloud-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="glass-card about-card">
+                <p>I am a passionate and driven Computer Science student with a deep interest in modern web technologies
+                    and <strong>Cloud Computing</strong>. I am currently honing my skills and actively learning about
+                    cloud infrastructure, deployment, and scalable architecture to build a strong profile in the cloud
+                    ecosystem.</p>
+                <p>My goal is to leverage my academic background to solve complex real-world problems using cloud
+                    technologies and innovative software development practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2 class="section-title">My <span>Education</span></h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content glass-card">
+                    <h3>Diploma in CSE (Pursuing)</h3>
+                    <h4 class="institute">AKTU</h4>
+                    <p>Currently pursuing my diploma in Computer Science Engineering to deepen my technical expertise.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content glass-card">
+                    <h3>Diploma in CSE</h3>
+                    <h4 class="institute">BTEUP</h4>
+                    <div class="score">
+                        <span class="score-value">72%</span>
+                        <span class="score-label">Marks</span>
+                    </div>
+                    <p>Successfully completed diploma in Computer Science Engineering.</p>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content glass-card">
+                    <h3>12th Grade (Intermediate)</h3>
+                    <div class="score">
+                        <span class="score-value">58%</span>
+                        <span class="score-label">Marks</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item right">
+                <div class="timeline-content glass-card">
+                    <h3>10th Grade (High School)</h3>
+                    <div class="score">
+                        <span class="score-value">74.83%</span>
+                        <span class="score-label">Marks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Let's <span>Connect</span></h2>
+        <div class="contact-container glass-card">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out to me for opportunities in Cloud Computing and software development.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>rahul.choudhary@example.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>India</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rahul Choudhary. Designed for Cloud Computing.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
